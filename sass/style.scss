@@ -1,0 +1,228 @@
+@import 'variables';
+@import 'mixins';
+body {
+  font-family: $themeFont;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.text-primary {
+  color: $primaryColor;
+}
+.text-secondary {
+  color: $secondaryColor;
+}
+h1.text-primary > span,
+h2.text-primary > span,
+h3.text-primary > span,
+h4.text-primary > span,
+.text-primary a {
+  color: $primaryColorhover;
+}
+
+h1.text-secondary > span,
+h2.text-secondary > span,
+h3.text-secondary > span,
+h4.text-secondary > span,
+.text-secondary a {
+  color: $secondaryColorhover;
+}
+
+.font-primary {
+  font-family: $themeFont;
+}
+.font-secondary {
+  font-family: $themeFont2;
+}
+
+h1,
+.h1 {
+  font-size: 47px;
+  font-weight: 800;
+  line-height: 50px;
+}
+h2,
+.h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 57px;
+}
+h3,
+.h3 {
+  font-size: 35px;
+  font-family: $themeFont2;
+  line-height: normal;
+  font-weight: 700;
+}
+h4,
+.h4 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: normal;
+}
+.btn {
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 800;
+  padding: 12px 35px;
+  font-family: $themeFont;
+}
+.btn-primary {
+  color: #fff;
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: $primaryColorhover;
+  border-color: $primaryColorhover;
+}
+
+.btn-secondary {
+  color: #fff !important;
+  background-color: $secondaryColor;
+  border-color: $secondaryColor;
+}
+
+.btn-secondary:hover {
+  color: #fff !important;
+  background-color: $secondaryColorhover;
+  border-color: $secondaryColorhover;
+}
+
+.navbar-expand-lg a.nav-item.nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-link.btn-primary {
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #ffff;
+  min-width: 100px;
+  text-align: center;
+}
+.top-banner {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+img.slider-img-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.top-banner::before,
+.background-fixed::before {
+  @include bgOverlay;
+}
+.top-banner > .container {
+  padding: 150px 15px;
+}
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 9999;
+  color: #fff;
+}
+a.navbar-brand > img {
+  max-width: 120px;
+}
+.main-header a {
+  color: inherit;
+  font-family: $themeFont2;
+}
+.main-header.sticky {
+  background-color: #fff;
+  color: $primaryColor;
+  box-shadow: 0 0 9px 1px #0000003b;
+}
+.main-header.sticky a.navbar-brand > img {
+  max-width: 60px;
+}
+
+.slide-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  font-size: 15px;
+  box-shadow: rgba(62, 31, 79, 0.18) 0px 13px 73px 0px;
+}
+.background-fixed {
+  @include fixedBackgrond;
+}
+
+.background-fixed .container {
+  padding: 100px 15px;
+  color: #fff;
+}
+
+.heading1 {
+  max-width: 670px;
+}
+.divider {
+  width: 100%;
+  background-color: $secondaryColor;
+  height: 1px;
+  margin: 25px 0;
+}
+.social-icons > a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: $primaryColor;
+  font-size: 25px;
+  border-radius: 3px;
+  height: 50px;
+  background-color: #fff;
+  width: 50px;
+  margin: 0px 2px;
+}
+.slider-container {
+  margin-top: -81px;
+  overflow: hidden;
+}
+.img-slider {
+  width: 150%;
+  left: -25%;
+}
+
+.img-slider .slick-slide {
+  padding: 0 0.6%;
+}
+
+.img-slider .slick-slide > div {
+  padding: 25px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 3px #00000038;
+}
+.img-slider .slick-track {
+  padding: 20px 0;
+}
+img.icon {
+  width: 100%;
+  max-width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.col-md-6.text > div {
+  max-width: 565px;
+  padding: 25px 15px;
+}
+.col-md-6.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+.social-icons.social-icons1 > a {
+  background-color: $secondaryColor;
+  color: $secondaryColorhover;
+}

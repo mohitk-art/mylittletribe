@@ -1,0 +1,221 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400; }
+
+a:hover {
+  text-decoration: none; }
+
+.text-primary {
+  color: #ffcc3b !important; }
+
+.text-secondary {
+  color: #402734 !important; }
+
+h1.text-primary > span,
+h2.text-primary > span,
+h3.text-primary > span,
+h4.text-primary > span,
+.text-primary a {
+  color: #f8d24a !important; }
+
+h1.text-secondary > span,
+h2.text-secondary > span,
+h3.text-secondary > span,
+h4.text-secondary > span,
+.text-secondary a {
+  color: #8d7c86 !important; }
+
+.font-primary {
+  font-family: "Nunito", sans-serif; }
+
+.font-secondary {
+  font-family: "Poppins", sans-serif; }
+
+h1,
+.h1 {
+  font-size: 47px;
+  font-weight: 800;
+  line-height: 50px; }
+
+h2,
+.h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 57px; }
+
+h3,
+.h3 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  line-height: normal;
+  font-weight: 700; }
+
+h4,
+.h4 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: normal; }
+
+.btn {
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 800;
+  padding: 12px 35px;
+  font-family: "Nunito", sans-serif; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #ffcc3b !important;
+  border-color: #ffcc3b !important; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #f8d24a !important;
+  border-color: #f8d24a !important; }
+
+.btn-secondary {
+  color: #fff !important;
+  background-color: #402734 !important;
+  border-color: #402734 !important; }
+
+.btn-secondary:hover {
+  color: #fff !important;
+  background-color: #8d7c86 !important;
+  border-color: #8d7c86 !important; }
+
+.navbar-expand-lg a.nav-item.nav-link {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.nav-link.btn-primary {
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #ffff;
+  min-width: 100px;
+  text-align: center; }
+
+.top-banner {
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+
+img.slider-img-gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+
+.top-banner::before,
+.background-fixed::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #00000061; }
+
+.top-banner > .container {
+  padding: 150px 15px; }
+
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 9999;
+  color: #fff; }
+
+a.navbar-brand > img {
+  max-width: 120px; }
+
+.main-header a {
+  color: inherit;
+  font-family: "Poppins", sans-serif; }
+
+.main-header.sticky {
+  background-color: #fff;
+  color: #ffcc3b !important;
+  box-shadow: 0 0 9px 1px #0000003b; }
+
+.main-header.sticky a.navbar-brand > img {
+  max-width: 60px; }
+
+.slide-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  font-size: 15px;
+  box-shadow: rgba(62, 31, 79, 0.18) 0px 13px 73px 0px; }
+
+.background-fixed {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative; }
+
+.background-fixed .container {
+  padding: 100px 15px;
+  color: #fff; }
+
+.heading1 {
+  max-width: 670px; }
+
+.divider {
+  width: 100%;
+  background-color: #402734 !important;
+  height: 1px;
+  margin: 25px 0; }
+
+.social-icons > a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffcc3b !important;
+  font-size: 25px;
+  border-radius: 3px;
+  height: 50px;
+  background-color: #fff;
+  width: 50px;
+  margin: 0px 2px; }
+
+.slider-container {
+  margin-top: -81px;
+  overflow: hidden; }
+
+.img-slider {
+  width: 150%;
+  left: -25%; }
+
+.img-slider .slick-slide {
+  padding: 0 0.6%; }
+
+.img-slider .slick-slide > div {
+  padding: 25px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 3px #00000038; }
+
+.img-slider .slick-track {
+  padding: 20px 0; }
+
+img.icon {
+  width: 100%;
+  max-width: 100px;
+  height: 100px;
+  object-fit: contain; }
+
+.col-md-6.text > div {
+  max-width: 565px;
+  padding: 25px 15px; }
+
+.col-md-6.bg-cover {
+  background-size: cover;
+  background-position: center; }
+
+.social-icons.social-icons1 > a {
+  background-color: #402734 !important;
+  color: #8d7c86 !important; }
