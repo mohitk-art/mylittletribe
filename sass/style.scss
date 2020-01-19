@@ -75,24 +75,21 @@ h4,
   color: #fff;
   background-color: $primaryColor;
   border-color: $primaryColor;
+  &:hover {
+    color: #fff;
+    background-color: $primaryColorhover;
+    border-color: $primaryColorhover;
+  }
 }
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: $primaryColorhover;
-  border-color: $primaryColorhover;
-}
-
 .btn-secondary {
   color: #fff !important;
   background-color: $secondaryColor;
   border-color: $secondaryColor;
-}
-
-.btn-secondary:hover {
-  color: #fff !important;
-  background-color: $secondaryColorhover;
-  border-color: $secondaryColorhover;
+  &:hover {
+    color: #fff !important;
+    background-color: $secondaryColorhover;
+    border-color: $secondaryColorhover;
+  }
 }
 
 .navbar-expand-lg a.nav-item.nav-link {
@@ -144,9 +141,9 @@ a.navbar-brand > img {
   background-color: #fff;
   color: $primaryColor;
   box-shadow: 0 0 9px 1px #0000003b;
-}
-.main-header.sticky a.navbar-brand > img {
-  max-width: 60px;
+  a.navbar-brand > img {
+    max-width: 60px;
+  }
 }
 
 .slide-box {
@@ -158,11 +155,10 @@ a.navbar-brand > img {
 }
 .background-fixed {
   @include fixedBackgrond;
-}
-
-.background-fixed .container {
-  padding: 100px 15px;
-  color: #fff;
+  .container {
+    padding: 100px 15px;
+    color: #fff;
+  }
 }
 
 .heading1 {
@@ -193,21 +189,20 @@ a.navbar-brand > img {
 .img-slider {
   width: 150%;
   left: -25%;
+  .slick-track {
+    padding: 20px 0;
+  }
+  .slick-slide {
+    padding: 0 0.6%;
+  }
+  .slick-slide > div {
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 3px #00000038;
+  }
 }
 
-.img-slider .slick-slide {
-  padding: 0 0.6%;
-}
-
-.img-slider .slick-slide > div {
-  padding: 25px;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0 0 10px 3px #00000038;
-}
-.img-slider .slick-track {
-  padding: 20px 0;
-}
 img.icon {
   width: 100%;
   max-width: 100px;
