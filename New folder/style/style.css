@@ -80,19 +80,19 @@ h5,
   color: #fff !important;
   background-color: #ffd73d;
   border-color: #ffd73d; }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  .btn-primary:hover {
     color: #fff;
-    background-color: #e1bd30 !important;
-    border-color: #e1bd30 !important; }
+    background-color: #e1bd30;
+    border-color: #e1bd30; }
 
 .btn-secondary {
   color: #fff !important;
   background-color: #492439;
   border-color: #492439; }
-  .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  .btn-secondary:hover {
     color: #fff !important;
-    background-color: #724e63 !important;
-    border-color: #724e63 !important; }
+    background-color: #724e63;
+    border-color: #724e63; }
 
 .navbar-expand-lg a.nav-item.nav-link {
   padding-left: 20px;

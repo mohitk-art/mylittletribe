@@ -88,10 +88,12 @@ h5,
   color: #fff !important;
   background-color: $primaryColor;
   border-color: $primaryColor;
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     color: #fff;
-    background-color: $primaryColorhover;
-    border-color: $primaryColorhover;
+    background-color: $primaryColorhover !important;
+    border-color: $primaryColorhover !important;
   }
 }
 
@@ -99,10 +101,12 @@ h5,
   color: #fff !important;
   background-color: $secondaryColor;
   border-color: $secondaryColor;
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     color: #fff !important;
-    background-color: $secondaryColorhover;
-    border-color: $secondaryColorhover;
+    background-color: $secondaryColorhover !important;
+    border-color: $secondaryColorhover !important;
   }
 }
 
